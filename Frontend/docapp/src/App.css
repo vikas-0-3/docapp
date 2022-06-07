@@ -1,0 +1,17 @@
+body {
+  background-color: #fafafa;
+}
+.whitebkg {
+  background-color: #fff;
+}
+
+.fixheight {
+  height: 85vh;
+  background-color: #fff;
+}
+
+.list-group-item:hover {
+  border-left: 3px solid rgb(89, 236, 89);
+  cursor: pointer;
+}
+
