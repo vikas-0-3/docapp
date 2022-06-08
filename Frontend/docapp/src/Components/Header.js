@@ -18,9 +18,9 @@ const Header = (props) => {
                   Vikas
                 </button>
                 <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                  <li><a className="dropdown-item" href="/">Action</a></li>
-                  <li><a className="dropdown-item" href="/">Another action</a></li>
-                  <li><a className="dropdown-item" href="/">Something else here</a></li>
+                  <li><a className="dropdown-item" href="/">Profile</a></li>
+                  <li><a className="dropdown-item" href="/">Settings</a></li>
+                  <li><a className="dropdown-item" href="/">Logout</a></li>
                 </ul>
               </div>
             </div>

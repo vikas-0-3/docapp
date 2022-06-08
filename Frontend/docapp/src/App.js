@@ -8,6 +8,7 @@ import Footer from './Components/Footer';
 import Navlist from './Components/Navlist';
 import Dashboard from './Components/Dashboard';
 import MedicalRecords from './Components/MedicalRecords';
+import Medicineorders from './Components/Medicineorders';
 // library
 import _ from "lodash";
 
@@ -23,6 +24,9 @@ function App() {
     }
     if(url === "medicalrecords") {
       navigate('/medicalrecords', {replace: true});
+    }
+    if(url === "medicineorders") {
+      navigate('/medicineorders', {replace: true});
     }
   }
 
@@ -103,7 +107,9 @@ function App() {
                 } />
                 <Route exact path="/medicalrecords" element={
                   <MedicalRecords />
-
+                } />
+                <Route exact path="/medicineorders" element={
+                  <Medicineorders />
                 } />
               </Routes>
               
