@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from "react-router-dom";
 
 const Header = (props) => {
   return (
@@ -7,9 +8,9 @@ const Header = (props) => {
 
         <nav className="navbar whitebkg p-0">
           <div className="container p-2">
-            <a className="navbar-brand" href="/">
+            <Link className="navbar-brand" to='/' >
               <img src={props.logo} alt="Docapp-Logo" width="30" height="24" /> <b>DOCAPP</b>
-            </a>
+            </Link>
 
             <div className="d-flex">
               <div className="dropdown">
