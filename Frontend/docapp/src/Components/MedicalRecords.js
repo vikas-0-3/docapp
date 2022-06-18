@@ -31,12 +31,13 @@ const MedicalRecords = () => {
         <>
             <nav className="navbar">
                 <button type="button" className="btn btn-sm btn-info text-white fw-bold" data-bs-toggle="modal" data-bs-target="#exampleModal">Upload Records</button>
+                <span className="text-right text-muted fw-bolder">MEDICAL RECORDS</span>
             </nav>
             <br />
 
 
             {_.times(3, (i) => (
-                  <Medicalrecordcard key={i} date={MedicalObjects[i].date} title={MedicalObjects[i].title} description={MedicalObjects[i].description} name={MedicalObjects[i].name} /> 
+                  <Medicalrecordcard key={i} nametitle={"Report By"} date={MedicalObjects[i].date} title={MedicalObjects[i].title} description={MedicalObjects[i].description} name={MedicalObjects[i].name} /> 
             ))}
 
         
